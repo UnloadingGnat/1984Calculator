@@ -11,3 +11,5 @@
 - When the result is 1984, it is changed to "Literally 1984"
 - Dividing by 0, gives you Error: 101...
 
+### Screenshot
+![Screenshot](/public/1984Screen.png)
