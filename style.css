@@ -1,0 +1,117 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #EAEAEA;
+    font-family: monospace;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin: 10px;
+    margin-bottom: -20px;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.quote {
+    font-size: 17px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #3291FF;
+}
+
+.content {
+    display: flex;
+    min-height: 50vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 90vh;
+    overflow: hidden;
+    background-color: #EAEAEA;
+}
+
+.container {
+    background-color: #111;
+    border: 8px solid #444;
+    box-shadow: 10px 10px 8px #888888;
+    border-radius: 2px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    gap: 2px;
+}
+
+#display {
+    grid-column: 1/-1;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 5px;
+    font-size: 5em;
+    font-weight: initial;
+    text-shadow: 2px 2px #444;
+    margin: 5px;
+}
+
+button {
+    border: none;
+    margin: 4px;
+    border-radius: 4px;
+    font-size: 3em;
+    font-weight: initial;
+    font-family: monospace;
+    color: #000;
+}
+
+#zero {
+    grid-column: span 2;
+}
+
+.operator, .equal {
+    background-color: #998d7d;
+}
+
+.operator:focus, .equal:active {
+    background-color: #786d60;
+    transform: translateY(1px);
+}
+
+.clear, .sign, .percent {
+    background-color: #e88602;
+}
+.clear:active, .sign:active, .percent:active {
+    background-color: #be6e05;
+    transform: translateY(1px);
+}
+
+.number, .decimal {
+    background-color: #FAFAFA;
+}
+.number:hover, .decimal:hover {
+    background-color: #dddcdc;
+}
+.number:active, .decimal:active {
+    background-color: #b5b2b2;
+    transform: translateY(1px);
+}
+
+#display::selection {
+    background-color: #daf7ad;
+}
