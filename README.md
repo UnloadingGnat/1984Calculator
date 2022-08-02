@@ -1,4 +1,4 @@
-# 1984 Calculator
+# [1984 Calculator](https://1984.23π.com/) (https://1984.23π.com/)
 
 ![1984](/public/ingsoc.jpg)
 
