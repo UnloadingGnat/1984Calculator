@@ -1,4 +1,4 @@
-# [1984 Calculator](https://unloadinggnat.github.io/1984Calculator/)
+# [1984 Calculator](https://unloadinggnat.github.io/1984Calculator/) (https://unloadinggnat.github.io/1984Calculator/)
 
 ![1984](/public/ingsoc.jpg)
 
